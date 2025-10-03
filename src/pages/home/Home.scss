@@ -1,0 +1,87 @@
+.home{
+    .features{
+        background-color:rgb(235, 244, 244);
+        display: flex;
+        justify-content: center;
+        padding: 70px 0px;
+        &.dark{
+          background-color:white;
+          h1{
+            color: black !important;
+            font-size: 36px;
+            margin-bottom: 20px;
+          }
+          p{
+            color: black !important;
+            margin-bottom: 30px !important;
+            font-size: 18px !important;
+          }
+          .title{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            color: black !important;
+            font-weight: 400 !important;
+            font-size: 16px !important;
+            margin-bottom: 10px !important;
+          }
+         img{
+          height: 500px;
+          width: 700px;
+         }
+         button{
+          background-color:rgb(9, 8, 8);
+          padding: 10px 20px !important;
+          border-radius: 5px  !important;
+          cursor: pointer;
+          color: white;
+          border: 1px solid black;
+          margin-bottom: 20px !important;
+          font-size: 18px !important;
+          margin-top: 20px;
+          width: max-content;
+         }
+        }
+        .container{
+            width: 1400px;
+            align-items: center;
+            gap: 100px;
+            display: flex;
+           .item{
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+           
+             h1{
+              font-weight: 500;
+              margin-bottom: 10px;
+             }
+             p{
+              font-size: 18px;
+              font-weight: 300;
+              color: black;
+              line-height: 28px;
+              letter-spacing: 1px;
+             }
+            .title{
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              font-weight: 500;
+              font-size: 18px;
+              color: gray;
+
+              img{
+                height: 24px;
+                width: 24px;
+              }
+
+            }
+            video{
+             width: 700px;
+             height: 400px;
+            }
+        } 
+      } 
+    }
+}
