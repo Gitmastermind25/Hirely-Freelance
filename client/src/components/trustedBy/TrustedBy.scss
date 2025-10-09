@@ -1,0 +1,31 @@
+.trustedBy{
+    background-color: rgb(236, 236, 236);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        width: 760px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        color: black;
+
+        span {
+          font-size: 25px;
+          font-weight: 500;
+        }
+        img {
+            height: 30px;      
+            object-fit: contain;
+            filter: grayscale(100%); 
+            opacity: 0.8;
+            transition: 0.3s ease;
+
+            &:hover {
+                filter: grayscale(0%);
+                opacity: 1;
+            }    
+        }
+    }
+}
