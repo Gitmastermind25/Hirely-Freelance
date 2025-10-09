@@ -1,0 +1,67 @@
+.pay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-color: #f9f9f9;
+  
+
+  .StripeElement,
+  form {
+    width: 100%;
+    max-width: 500px;
+    padding: 40px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.08);
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+    h2 {
+      text-align: center;
+      color: #333;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 12px;
+      font-size: 16px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: #0056d2;
+        transform: translateY(-1px);
+      }
+
+      &:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+      }
+    }
+
+    .error-message {
+      color: #e63946;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .success-message {
+      color: #2a9d8f;
+      font-size: 15px;
+      text-align: center;
+      font-weight: 500;
+    }
+  }
+}
